@@ -1,0 +1,6 @@
+{
+    "NotEnoughArguments": "Este comando requer argumentos {0}.",
+    "InvalidItemShortnameOrId": "Item ShortName ou ID está incorreto.Experimente StacksizeController.Itemsearch [Nome do item parcial]",
+    "InvalidCategory": "Categoria não encontrada.Experimente o StacksizEController.ListCategories",
+    "OperationSuccessful": "Operação concluída com sucesso."
+}

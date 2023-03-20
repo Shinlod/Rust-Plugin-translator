@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tradutor de Plugin JSON</title>
+</head>
+<body>
+    <h1>Tradutor de Plugin JSON</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <label for="source_file">Selecione o arquivo JSON:</label>
+        <input type="file" id="source_file" name="source_file" accept=".json" required>
+        <br>
+        <label for="language">Selecione o idioma de destino:</label>
+        <select id="language" name="language" required>
+            <option value="pt">Português</option>
+            <option value="en">Inglês</option>
+            <option value="es">Espanhol</option>
+            <!-- Adicione mais opções de idiomas, se necessário -->
+        </select>
+        <br>
+        <input type="submit" value="Traduzir">
+    </form>
+</body>
+</html>
